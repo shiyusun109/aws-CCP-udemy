@@ -1,6 +1,6 @@
 # AWS Cloud Adoption Framework (CAF)
 
-![Image11](./images/adoption_framework.png)
+![Image11](./images/cloud_adoption.png)
 
 1. **Business Perspective:**
      - Purpose: Understand how business value is created and determine how cloud adoption contributes to the organization's business goals.
