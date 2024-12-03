@@ -1,3 +1,154 @@
+# AWS Cloud Adoption Framework (CAF)
+
+![Image11](./images/img11.png)
+
+1. **Business Perspective:**
+     - Purpose: Understand how business value is created and determine how cloud adoption contributes to the organization's business goals.
+     - Focus Points: Business objectives, risk management, opportunities and ROI (return on investment).
+2. **People Perspective:**
+     - Purpose: Aligning the organization's skills and capacities with cloud services.
+     - Focus Points: Training, defining new roles, building teams and continuing education and learning.
+3. **Governance Perspective:**
+     - Purpose: Aligning business processes and IT governance with cloud services.
+     - Focus Points: Risk management, cost reduction, license management, compliance, process improvements and control mechanisms.
+4. **Platform Perspective:**
+     - Purpose: Design and implement cloud infrastructure and architecture in line with business needs and objectives.
+     - Focus Points: Infrastructure design, service selection, architectural best practices and application migration.
+5. **Security Perspective:**
+     - Purpose: Meeting security and compliance requirements.
+     - Focus Points: Identity and access management, data protection, network security and compliance requirements.
+6. **Operations Perspective:**
+     - Purpose: To manage and operate cloud resources and services effectively and efficiently.
+     - Focus Points: Automation, monitoring, reporting, incident management, and continuous integration and continuous delivery (CI/CD) processes.
+     -Observability
+     - Event management (AIOps)
+     - Incident and problem management
+     - Change and release management
+     - Performance and capacity management
+     - Configuration management
+     - Patch management
+     - Availability and continuity management
+     - Application management
+
+
+
+# The AWS Well-Architected Framework
+
+### Operational excellence
+
+- The operational excellence pillar includes the ability to run and monitor systems to deliver business value and to continually improve supporting processes and procedures.
+- Perform operations as code
+- Make frequent, small, reversible changes
+- Refine operations procedures frequently
+- Anticipate failure
+- Learn from all operational failures
+- IaaS
+
+### Security
+
+
+- The security pillar includes the ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies.
+- Implement a strong identity foundation
+- Enable traceability
+- Apply security at all layers
+- Automate security best practices
+- Protect data in transit and at rest
+- Keep people away from data
+- Prepare for security events
+
+### Reliability
+
+- The reliability pillar includes the ability of a system to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues.
+- Recover from infrastructure or service disruptions
+- Dynamically acquire computing resources to meet demand
+- Mitigate disruptions such as misconfigurations or transient network issues
+- Testing recovery procedures
+- Scaling horizontally
+- Increase aggregate system availability
+- Automatically recovering from failure
+- Stop guessing capacity
+
+### Performance Efficiency
+
+- The performance efficiency pillar includes the ability to use computing resources efficiently to meet system requirements. Key topics include selecting the right resource types and sizes based on workload requirements, monitoring performance, and making informed decisions to maintain efficiency as business needs evolve.
+- Architecture includes experimenting more often
+- Using serverless architectures
+- Designing systems to be able to go global in minutes
+- Go global in minutes
+- Experiment more often
+
+### Cost Optimization
+
+- The cost optimization pillar includes the ability to avoid or eliminate unneeded cost or sub-optimal resources.
+- Adopt a consumption model
+- Analyzing and attributing expenditure
+- Using managed services to reduce the cost of ownership
+- Implement cloud financial management
+
+### Sustainability
+
+- The discipline of sustainability addresses the long-term environmental, economic, and societal impact of your business activities. Your business or organization can have negative environmental impacts like direct or indirect carbon emissions, unrecyclable waste, and damage to shared resources like clean water. When building cloud workloads, the practice of sustainability is understanding the impacts of the services used, quantifying impacts through the entire workload lifecycle, and applying design principles and best practices to reduce these impacts.
+- Understand your impact
+- Establish sustainability goals
+- Maximize utilization
+- Anticipate and adopt new, more efficient hardware and software offerings
+- Use managed services
+- Reduce the downstream impact of your cloud workloads
+
+
+
+# Strategies for migration**
+
+**Rehosting** 
+
+- Migrating applications to the Cloud as is, with minor changes.
+- Also known as "lift and shift."
+- Moving applications as-is to the cloud.
+- Minimal changes to the application.
+- Provides quick migration with minimal disruption.
+
+**Replatforming:**
+
+- Leveraging performance and scalability by integrating applications with the cloud. Code changes can also be made here.
+- Making some optimizations during migration.
+- Adapting applications to take advantage of cloud services.
+- May involve some code or configuration changes.
+- Improves application performance and scalability.
+
+**Refactoring/Re-architecting:**
+
+- Go cloud-native for maximum scalability. This involves extensive code and architectural changes.
+- Redesigning applications to be cloud-native.
+- Extensive code changes and architecture modifications.
+- Utilizes cloud services and modern best practices.
+- Offers maximum scalability, efficiency, and innovation.
+
+**Repurchasing:**
+
+- Replacing existing software with cloud alternatives. Manage applications with less hassle by creating SaaS.
+- Replacing existing software with cloud-based alternatives.
+- Adopting software-as-a-service (SaaS) solutions.
+- Requires minimal development effort.
+- Often results in improved features and reduced maintenance.
+
+**Retaining:**
+
+- Keeping existing applications in their current state because they are legacy.
+- Keeping certain applications in their current state.
+- Typically for applications not suitable for migration.
+- Could involve legacy or proprietary software.
+
+**Retiring:**
+
+- Gradually removing unneeded services to reduce operational load and budget.
+- Phasing out applications or services.
+- Discontinuing resources that are no longer needed.
+- Helps streamline operations and reduce costs.
+
+
+
+
+
 # 📝Cloud Computing
 
 - [How Clod Computing Works?](#how-clod-computing-works)
